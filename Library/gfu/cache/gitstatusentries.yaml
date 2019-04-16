@@ -13,132 +13,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-04-16T12:28:49.397+02:00
+  lastUpdatedAtString: 2019-04-16T13:20:24.710+02:00
   initializedAtString: 2019-04-16T11:45:21.201+02:00
   entries:
-  - path: .gitattributes
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\.gitattributes
-    projectPath: .gitattributes
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: .gitignore
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\.gitignore
-    projectPath: .gitignore
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: AirHockeyGame.sln
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\AirHockeyGame.sln
-    projectPath: AirHockeyGame.sln
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Art.meta
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Art.meta
-    projectPath: Assets\Art.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Art\Bg.png
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Art\Bg.png
-    projectPath: Assets\Art\Bg.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Art\Bg.png.meta
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Art\Bg.png.meta
-    projectPath: Assets\Art\Bg.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Art\BgBorder.png
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Art\BgBorder.png
-    projectPath: Assets\Art\BgBorder.png
-    originalPath: 
-    status: 1
-    staged: 0
   - path: Assets\Art\BgBorder.png.meta
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Art\BgBorder.png.meta
     projectPath: Assets\Art\BgBorder.png.meta
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
-  - path: Assets\Art\PlayerBlue.png
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Art\PlayerBlue.png
-    projectPath: Assets\Art\PlayerBlue.png
+  - path: Assets\Bounce Physic Material.physicsMaterial2D
+    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Bounce
+      Physic Material.physicsMaterial2D
+    projectPath: Assets\Bounce Physic Material.physicsMaterial2D
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Art\PlayerBlue.png.meta
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Art\PlayerBlue.png.meta
-    projectPath: Assets\Art\PlayerBlue.png.meta
+  - path: Assets\Bounce Physic Material.physicsMaterial2D.meta
+    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Bounce
+      Physic Material.physicsMaterial2D.meta
+    projectPath: Assets\Bounce Physic Material.physicsMaterial2D.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Art\PlayerRed.png
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Art\PlayerRed.png
-    projectPath: Assets\Art\PlayerRed.png
+  - path: Assets\Scenes\SampleScene.unity
+    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Art\PlayerRed.png.meta
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Art\PlayerRed.png.meta
-    projectPath: Assets\Art\PlayerRed.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Art\Puck.png
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Art\Puck.png
-    projectPath: Assets\Art\Puck.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Art\Puck.png.meta
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Art\Puck.png.meta
-    projectPath: Assets\Art\Puck.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Scripts.meta
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts.meta
-    projectPath: Assets\Scripts.meta
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Assets\Scripts\PlayerMovement.cs
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\PlayerMovement.cs
     projectPath: Assets\Scripts\PlayerMovement.cs
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Scripts\PlayerMovement.cs.meta
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\PlayerMovement.cs.meta
-    projectPath: Assets\Scripts\PlayerMovement.cs.meta
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Library\assetDatabase3
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\assetDatabase3
     projectPath: Library\assetDatabase3
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\AssetImportState
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\AssetImportState
-    projectPath: Library\AssetImportState
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\EditorUserBuildSettings.asset
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\EditorUserBuildSettings.asset
-    projectPath: Library\EditorUserBuildSettings.asset
     originalPath: 
     status: 3
     staged: 0
@@ -170,137 +82,11 @@ MonoBehaviour:
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\gfu\cache\gituser.yaml
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gituser.yaml
-    projectPath: Library\gfu\cache\gituser.yaml
-    originalPath: 
     status: 3
     staged: 0
-  - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\repoinfo.yaml
-    projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\01\01e02995805eb483690380a911a657e2
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\metadata\01\01e02995805eb483690380a911a657e2
-    projectPath: Library\metadata\01\01e02995805eb483690380a911a657e2
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\01\01e02995805eb483690380a911a657e2.info
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\metadata\01\01e02995805eb483690380a911a657e2.info
-    projectPath: Library\metadata\01\01e02995805eb483690380a911a657e2.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\3c\3cf132d4fa07f4f0cb2883499c5c7dd0
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\metadata\3c\3cf132d4fa07f4f0cb2883499c5c7dd0
-    projectPath: Library\metadata\3c\3cf132d4fa07f4f0cb2883499c5c7dd0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\3c\3cf132d4fa07f4f0cb2883499c5c7dd0.info
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\metadata\3c\3cf132d4fa07f4f0cb2883499c5c7dd0.info
-    projectPath: Library\metadata\3c\3cf132d4fa07f4f0cb2883499c5c7dd0.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
-    projectPath: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc.info
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc.info
-    projectPath: Library\metadata\4c\4c433abcdb28444ebb7bd395ba5c76fc.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
-    projectPath: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6.info
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6.info
-    projectPath: Library\metadata\4d\4dfd3f5da88944ec6ac5977d676c30c6.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
-    projectPath: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe.info
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\metadata\ac\acc34040a66fe4170bc8885268860cfe.info
-    projectPath: Library\metadata\ac\acc34040a66fe4170bc8885268860cfe.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
-    projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
-    projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
-    projectPath: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f.info
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f.info
-    projectPath: Library\metadata\f8\f8eca3a711f4842eba0c52ea9885ef7f.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     status: 3
     staged: 0
@@ -313,24 +99,6 @@ MonoBehaviour:
   - path: Library\StateCache\Hierarchy\bc2425-mainStage.json
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\StateCache\Hierarchy\bc2425-mainStage.json
     projectPath: Library\StateCache\Hierarchy\bc2425-mainStage.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\StateCache\SceneView\747686-mainStage.json
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\StateCache\SceneView\747686-mainStage.json
-    projectPath: Library\StateCache\SceneView\747686-mainStage.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: ProjectSettings\QualitySettings.asset
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\ProjectSettings\QualitySettings.asset
-    projectPath: ProjectSettings\QualitySettings.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: ProjectSettings\UnityConnectSettings.asset
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\ProjectSettings\UnityConnectSettings.asset
-    projectPath: ProjectSettings\UnityConnectSettings.asset
     originalPath: 
     status: 3
     staged: 0
