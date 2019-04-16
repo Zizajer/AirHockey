@@ -13,35 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-04-16T13:20:24.710+02:00
+  lastUpdatedAtString: 2019-04-16T13:49:25.046+02:00
   initializedAtString: 2019-04-16T11:45:21.201+02:00
   entries:
-  - path: Assets\Art\BgBorder.png.meta
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Art\BgBorder.png.meta
-    projectPath: Assets\Art\BgBorder.png.meta
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Bounce Physic Material.physicsMaterial2D
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Bounce
-      Physic Material.physicsMaterial2D
-    projectPath: Assets\Bounce Physic Material.physicsMaterial2D
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Bounce Physic Material.physicsMaterial2D.meta
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Bounce
-      Physic Material.physicsMaterial2D.meta
-    projectPath: Assets\Bounce Physic Material.physicsMaterial2D.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Scenes\SampleScene.unity
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scenes\SampleScene.unity
-    projectPath: Assets\Scenes\SampleScene.unity
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Assets\Scripts\PlayerMovement.cs
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\PlayerMovement.cs
     projectPath: Assets\Scripts\PlayerMovement.cs
@@ -87,12 +61,6 @@ MonoBehaviour:
   - path: Library\InspectorExpandedItems.asset
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\InspectorExpandedItems.asset
     projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     status: 3
     staged: 0

@@ -9,6 +9,11 @@ public class PlayerMovement : MonoBehaviour
     bool canMove;
     Vector2 playerSize;
 
+    public Transform BoundaryPointUp;
+    public Transform BoundaryPointDown;
+    public Transform BoundaryPointLeft;
+    public Transform BoundaryPointRight;
+
     Rigidbody2D rb;
 
     // Use this for initialization
@@ -44,7 +49,12 @@ public class PlayerMovement : MonoBehaviour
 
             if (canMove)
             {
-                rb.MovePosition(mousePos);
+                Vector2 clampedMousePos = new Vector2(Mathf.Clamp(mousePos.x, BoundaryPointLeft.position.x,
+                                                                  BoundaryPointRight.position.x),
+                                                      Mathf.Clamp(mousePos.y, BoundaryPointDown.position.y,
+                                                                  BoundaryPointUp.position.y));
+
+                rb.MovePosition(clampedMousePos);
             }
         }
         else
