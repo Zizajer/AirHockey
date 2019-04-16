@@ -11,6 +11,8 @@ public class ScoreManager : MonoBehaviour
     static int redPlayerScore = 0;
     static int bluePlayerScore = 0;
 
+    static public bool isAWinner = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,11 @@ public class ScoreManager : MonoBehaviour
     {
         RedPlayerScoreText.text = redPlayerScore.ToString();
         BluePlayerScoreText.text = bluePlayerScore.ToString();
+
+        if(redPlayerScore > 10 || bluePlayerScore > 10)
+        {
+            isAWinner = true;
+        }
     }
 
     public static void incrementRedPlayerScore()
@@ -33,5 +40,12 @@ public class ScoreManager : MonoBehaviour
     public static void incrementBluePlayerScore()
     {
         bluePlayerScore++;
+    }
+
+    public static void resetScores()
+    {
+        redPlayerScore = 0;
+        bluePlayerScore = 0;
+        isAWinner = false;
     }
 }

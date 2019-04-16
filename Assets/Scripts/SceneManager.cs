@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.UIElements;
 
 public class SceneManager : MonoBehaviour
 {
     public Rigidbody2D RedPlayer;
     public Rigidbody2D BluePlayer;
     public Rigidbody2D Puck;
+    public ScoreManager scoreManager;
+
+    public GameObject EndGamePanel;
 
     Vector2 redPlayerStartPosition;
     Vector2 bluePlayerStartPosition;
@@ -18,6 +22,19 @@ public class SceneManager : MonoBehaviour
         redPlayerStartPosition = RedPlayer.position;
         bluePlayerStartPosition = BluePlayer.position;
         puckStartPosition = Puck.position;
+    }
+    private void Update()
+    {
+        if (ScoreManager.isAWinner)
+        {
+            EndGamePanel.active = true;
+            Time.timeScale = 0;
+        }
+        else
+        {
+            EndGamePanel.active = false;
+            Time.timeScale = 1;
+        }
     }
 
     public IEnumerator ResetRound()

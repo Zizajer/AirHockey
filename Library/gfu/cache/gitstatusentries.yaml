@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-04-16T17:21:22.339+02:00
+  lastUpdatedAtString: 2019-04-16T18:19:15.964+02:00
   initializedAtString: 2019-04-16T16:48:55.039+02:00
   entries:
   - path: Assets\Scenes\SampleScene.unity
@@ -22,45 +22,33 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Scripts\PlayerController.cs
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\PlayerController.cs
-    projectPath: Assets\Scripts\PlayerController.cs
+  - path: Assets\Scripts\ButtonFunctionsScript.cs
+    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\ButtonFunctionsScript.cs
+    projectPath: Assets\Scripts\ButtonFunctionsScript.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Scripts\PlayerController.cs.meta
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\PlayerController.cs.meta
-    projectPath: Assets\Scripts\PlayerController.cs.meta
+  - path: Assets\Scripts\ButtonFunctionsScript.cs.meta
+    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\ButtonFunctionsScript.cs.meta
+    projectPath: Assets\Scripts\ButtonFunctionsScript.cs.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Scripts\PlayerMovement.cs
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\PlayerMovement.cs
-    projectPath: Assets\Scripts\PlayerMovement.cs
+  - path: Assets\Scripts\SceneManager.cs
+    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\SceneManager.cs
+    projectPath: Assets\Scripts\SceneManager.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\ScoreManager.cs
+    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\ScoreManager.cs
+    projectPath: Assets\Scripts\ScoreManager.cs
     originalPath: 
     status: 3
     staged: 0
   - path: Library\assetDatabase3
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\assetDatabase3
     projectPath: Library\assetDatabase3
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\CurrentLayout.dwlt
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\CurrentLayout.dwlt
-    projectPath: Library\CurrentLayout.dwlt
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\EditorUserBuildSettings.asset
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\EditorUserBuildSettings.asset
-    projectPath: Library\EditorUserBuildSettings.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\EditorUserSettings.asset
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\EditorUserSettings.asset
-    projectPath: Library\EditorUserSettings.asset
     originalPath: 
     status: 3
     staged: 0
@@ -106,54 +94,6 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\ProjectSettings.asset
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ProjectSettings.asset
-    projectPath: Library\ProjectSettings.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
@@ -169,24 +109,6 @@ MonoBehaviour:
   - path: Library\StateCache\SceneView\747686-mainStage.json
     fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\StateCache\SceneView\747686-mainStage.json
     projectPath: Library\StateCache\SceneView\747686-mainStage.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: ProjectSettings\EditorBuildSettings.asset
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\ProjectSettings\EditorBuildSettings.asset
-    projectPath: ProjectSettings\EditorBuildSettings.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: ProjectSettings\GraphicsSettings.asset
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\ProjectSettings\GraphicsSettings.asset
-    projectPath: ProjectSettings\GraphicsSettings.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: ProjectSettings\ProjectSettings.asset
-    fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\ProjectSettings\ProjectSettings.asset
-    projectPath: ProjectSettings\ProjectSettings.asset
     originalPath: 
     status: 3
     staged: 0
