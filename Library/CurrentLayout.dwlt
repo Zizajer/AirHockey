@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 3}
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 524}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -68,7 +68,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &4
 MonoBehaviour:
@@ -133,10 +133,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 538, y: 498}
+  m_MinSize: {x: 713, y: 474}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 1
-  controlID: 58
+  controlID: 33
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -158,10 +158,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 947
-  m_MinSize: {x: 538, y: 498}
+  m_MinSize: {x: 713, y: 474}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 59
+  controlID: 34
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -183,10 +183,10 @@ MonoBehaviour:
     y: 0
     width: 1199
     height: 947
-  m_MinSize: {x: 436, y: 498}
+  m_MinSize: {x: 436, y: 474}
   m_MaxSize: {x: 14006, y: 14048}
   vertical: 1
-  controlID: 60
+  controlID: 69
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -207,11 +207,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1199
-    height: 522
-  m_MinSize: {x: 306, y: 224}
-  m_MaxSize: {x: 8006, y: 4024}
+    height: 517
+  m_MinSize: {x: 302, y: 200}
+  m_MaxSize: {x: 8002, y: 4024}
   vertical: 0
-  controlID: 15
+  controlID: 70
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,7 +230,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 909
-    height: 522
+    height: 517
   m_MinSize: {x: 102, y: 124}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 18}
@@ -258,9 +258,9 @@ MonoBehaviour:
     x: 909
     y: 0
     width: 290
-    height: 522
-  m_MinSize: {x: 204, y: 224}
-  m_MaxSize: {x: 4004, y: 4024}
+    height: 517
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -284,13 +284,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 522
+    y: 517
     width: 1199
-    height: 425
+    height: 430
   m_MinSize: {x: 436, y: 274}
   m_MaxSize: {x: 14006, y: 10024}
   vertical: 0
-  controlID: 61
+  controlID: 93
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -309,7 +309,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 863
-    height: 425
+    height: 430
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 17}
@@ -335,7 +335,7 @@ MonoBehaviour:
     x: 863
     y: 0
     width: 336
-    height: 425
+    height: 430
   m_MinSize: {x: 234, y: 274}
   m_MaxSize: {x: 10004, y: 10024}
   m_ActualView: {fileID: 22}
@@ -362,17 +362,17 @@ MonoBehaviour:
     y: 0
     width: 721
     height: 947
-  m_MinSize: {x: 102, y: 124}
+  m_MinSize: {x: 277, y: 74}
   m_MaxSize: {x: 4002, y: 4024}
-  m_ActualView: {fileID: 26}
+  m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
   - {fileID: 24}
   - {fileID: 25}
   - {fileID: 26}
   - {fileID: 16}
-  m_Selected: 3
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -403,9 +403,9 @@ MonoBehaviour:
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 1
+  currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 1
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -450,6 +450,16 @@ MonoBehaviour:
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
+      - path: master
+        label: master
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
       selectedNode:
         path: 
         label: 
@@ -466,10 +476,21 @@ MonoBehaviour:
       folders:
         keys:
         - Remote branches
+        - origin
         values:
         - path: Remote branches
           label: Remote branches
           level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: origin
+          label: origin
+          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -496,6 +517,26 @@ MonoBehaviour:
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
+      - path: origin
+        label: origin
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/master
+        label: master
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
       selectedNode:
         path: Remote branches
         label: Remote branches
@@ -513,14 +554,14 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2019-04-16T11:24:21.523+02:00
+      updatedTimeString: 2019-04-16T16:16:32.556+02:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2019-04-16T11:24:21.429+02:00
+      updatedTimeString: 2019-04-16T16:13:42.572+02:00
       cacheType: 1
     currentBranch:
       name: master
-      tracking: 
+      tracking: origin/master
     currentRemote:
       name: origin
       url: https://github.com/Zizajer/AirHockey.git
@@ -529,183 +570,30 @@ MonoBehaviour:
       host: 
       function: 0
       token: 
-    localBranches: []
-    remoteBranches: []
+    localBranches:
+    - name: master
+      tracking: origin/master
+    remoteBranches:
+    - name: origin/master
+      tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 0
+    currentBranchHasUpdate: 1
     currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 0
+    currentLocksHasUpdate: 1
     commitBody: 
-    commitMessage: First Commit
+    commitMessage: 
     currentBranch: '[master]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000001000000000000000
-        - cbe8319593be9b6418f69d3245606279
-        - dc888a20caa5c9a41953bca3130c1a56
-        - efd048c811bcff44698b20e4c5c0c8b9
-        - b2a1dc5a687ab044ea8a484cdd17fee2
-        - 00000000000000003000000000000000
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Scripts\Puck.cs
-          label: Puck.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Puck.cs
-            fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\Puck.cs
-            projectPath: Assets\Scripts\Puck.cs
-            originalPath: 
-            status: 1
-            staged: 0
-        - path: Assets\Scripts\SceneManager.cs
-          label: SceneManager.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\SceneManager.cs
-            fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\SceneManager.cs
-            projectPath: Assets\Scripts\SceneManager.cs
-            originalPath: 
-            status: 1
-            staged: 0
-        - path: Assets\Scripts\ScoreManager.cs
-          label: ScoreManager.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\ScoreManager.cs
-            fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\ScoreManager.cs
-            projectPath: Assets\Scripts\ScoreManager.cs
-            originalPath: 
-            status: 1
-            staged: 0
-        - path: ProjectSettings\TagManager.asset
-          label: TagManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\TagManager.asset
-            fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\ProjectSettings\TagManager.asset
-            projectPath: ProjectSettings\TagManager.asset
-            originalPath: 
-            status: 3
-            staged: 0
+        keys: []
+        values: []
       folders:
         keys:
-        - Assets
-        - Assets\Scripts
         - Library
         - Library\gfu
         - Library\gfu\cache
-        - Library\ScriptAssemblies
-        - Library\StateCache
-        - Library\StateCache\Hierarchy
-        - Library\StateCache\SceneView
-        - ProjectSettings
         values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
         - path: Library
           label: Library
           level: 0
@@ -760,96 +648,6 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Library\ScriptAssemblies
-          label: ScriptAssemblies
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library\StateCache
-          label: StateCache
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library\StateCache\Hierarchy
-          label: Hierarchy
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library\StateCache\SceneView
-          label: SceneView
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -878,150 +676,6 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Assets\Scripts
-        label: Scripts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Assets\Scripts\Puck.cs
-        label: Puck.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Puck.cs
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\Puck.cs
-          projectPath: Assets\Scripts\Puck.cs
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Assets\Scripts\Puck.cs.meta
-        label: Puck.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Puck.cs.meta
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\Puck.cs.meta
-          projectPath: Assets\Scripts\Puck.cs.meta
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Assets\Scripts\SceneManager.cs
-        label: SceneManager.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\SceneManager.cs
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\SceneManager.cs
-          projectPath: Assets\Scripts\SceneManager.cs
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Assets\Scripts\SceneManager.cs.meta
-        label: SceneManager.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\SceneManager.cs.meta
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\SceneManager.cs.meta
-          projectPath: Assets\Scripts\SceneManager.cs.meta
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Assets\Scripts\ScoreManager.cs
-        label: ScoreManager.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\ScoreManager.cs
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\ScoreManager.cs
-          projectPath: Assets\Scripts\ScoreManager.cs
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Assets\Scripts\ScoreManager.cs.meta
-        label: ScoreManager.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\ScoreManager.cs.meta
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\ScoreManager.cs.meta
-          projectPath: Assets\Scripts\ScoreManager.cs.meta
-          originalPath: 
-          status: 1
-          staged: 0
       - path: Library
         label: Library
         level: 0
@@ -1039,24 +693,6 @@ MonoBehaviour:
           projectPath: 
           originalPath: 
           status: 0
-          staged: 0
-      - path: Library\assetDatabase3
-        label: assetDatabase3
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\assetDatabase3
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\assetDatabase3
-          projectPath: Library\assetDatabase3
-          originalPath: 
-          status: 3
           staged: 0
       - path: Library\gfu
         label: gfu
@@ -1112,24 +748,6 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
-      - path: Library\gfu\cache\gitlocks.yaml
-        label: gitlocks.yaml
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\gfu\cache\gitlocks.yaml
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gitlocks.yaml
-          projectPath: Library\gfu\cache\gitlocks.yaml
-          originalPath: 
-          status: 3
-          staged: 0
       - path: Library\gfu\cache\gitlog.yaml
         label: gitlog.yaml
         level: 3
@@ -1145,24 +763,6 @@ MonoBehaviour:
           path: Library\gfu\cache\gitlog.yaml
           fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gitlog.yaml
           projectPath: Library\gfu\cache\gitlog.yaml
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\gfu\cache\gitstatusentries.yaml
-        label: gitstatusentries.yaml
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\gfu\cache\gitstatusentries.yaml
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gitstatusentries.yaml
-          projectPath: Library\gfu\cache\gitstatusentries.yaml
           originalPath: 
           status: 3
           staged: 0
@@ -1184,312 +784,6 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
-      - path: Library\gfu\cache\gituser.yaml
-        label: gituser.yaml
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\gfu\cache\gituser.yaml
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gituser.yaml
-          projectPath: Library\gfu\cache\gituser.yaml
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\gfu\cache\repoinfo.yaml
-        label: repoinfo.yaml
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\gfu\cache\repoinfo.yaml
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\repoinfo.yaml
-          projectPath: Library\gfu\cache\repoinfo.yaml
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\InspectorExpandedItems.asset
-        label: InspectorExpandedItems.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\InspectorExpandedItems.asset
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\InspectorExpandedItems.asset
-          projectPath: Library\InspectorExpandedItems.asset
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\ScriptAssemblies
-        label: ScriptAssemblies
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-        label: Assembly-CSharp-Editor-firstpass.dll
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-          projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-        label: Assembly-CSharp-Editor-firstpass.pdb
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-          projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-        label: BuiltinAssemblies.stamp
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\BuiltinAssemblies.stamp
-          projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-          originalPath: 
-          status: 5
-          staged: 0
-      - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-        label: Unity.Analytics.DataPrivacy.dll
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-          projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
-        label: Unity.Analytics.DataPrivacy.pdb
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
-          projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-        label: Unity.CollabProxy.Editor.dll
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-          projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-        label: Unity.CollabProxy.Editor.pdb
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-          projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-        label: Unity.PackageManagerUI.Editor.dll
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-          projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
-        label: Unity.PackageManagerUI.Editor.pdb
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
-          projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-        label: Unity.TextMeshPro.dll
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-          projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-        label: Unity.TextMeshPro.Editor.dll
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-          projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-        label: Unity.TextMeshPro.Editor.pdb
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-          projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-        label: Unity.TextMeshPro.pdb
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-          projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-          originalPath: 
-          status: 3
-          staged: 0
       - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
         label: shadercompiler-UnityShaderCompiler.exe0.log
         level: 1
@@ -1505,132 +799,6 @@ MonoBehaviour:
           path: Library\shadercompiler-UnityShaderCompiler.exe0.log
           fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
           projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\StateCache
-        label: StateCache
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\StateCache\Hierarchy
-        label: Hierarchy
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\StateCache\Hierarchy\bc2425-mainStage.json
-        label: bc2425-mainStage.json
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\StateCache\Hierarchy\bc2425-mainStage.json
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\StateCache\Hierarchy\bc2425-mainStage.json
-          projectPath: Library\StateCache\Hierarchy\bc2425-mainStage.json
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\StateCache\SceneView
-        label: SceneView
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\StateCache\SceneView\747686-mainStage.json
-        label: 747686-mainStage.json
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\StateCache\SceneView\747686-mainStage.json
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\StateCache\SceneView\747686-mainStage.json
-          projectPath: Library\StateCache\SceneView\747686-mainStage.json
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: ProjectSettings
-        label: ProjectSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: ProjectSettings\TagManager.asset
-        label: TagManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TagManager.asset
-          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\ProjectSettings\TagManager.asset
-          projectPath: ProjectSettings\TagManager.asset
           originalPath: 
           status: 3
           staged: 0
@@ -1654,57 +822,9 @@ MonoBehaviour:
           status: 0
           staged: 0
     gitStatusEntries:
-    - path: Assets\Scripts\Puck.cs
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\Puck.cs
-      projectPath: Assets\Scripts\Puck.cs
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Assets\Scripts\Puck.cs.meta
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\Puck.cs.meta
-      projectPath: Assets\Scripts\Puck.cs.meta
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Assets\Scripts\SceneManager.cs
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\SceneManager.cs
-      projectPath: Assets\Scripts\SceneManager.cs
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Assets\Scripts\SceneManager.cs.meta
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\SceneManager.cs.meta
-      projectPath: Assets\Scripts\SceneManager.cs.meta
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Assets\Scripts\ScoreManager.cs
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\ScoreManager.cs
-      projectPath: Assets\Scripts\ScoreManager.cs
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Assets\Scripts\ScoreManager.cs.meta
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\ScoreManager.cs.meta
-      projectPath: Assets\Scripts\ScoreManager.cs.meta
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Library\assetDatabase3
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\assetDatabase3
-      projectPath: Library\assetDatabase3
-      originalPath: 
-      status: 3
-      staged: 0
     - path: Library\gfu\cache\branches.yaml
       fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\branches.yaml
       projectPath: Library\gfu\cache\branches.yaml
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\gfu\cache\gitlocks.yaml
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gitlocks.yaml
-      projectPath: Library\gfu\cache\gitlocks.yaml
       originalPath: 
       status: 3
       staged: 0
@@ -1714,111 +834,9 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    - path: Library\gfu\cache\gitstatusentries.yaml
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gitstatusentries.yaml
-      projectPath: Library\gfu\cache\gitstatusentries.yaml
-      originalPath: 
-      status: 3
-      staged: 0
     - path: Library\gfu\cache\gittrackingstatus.yaml
       fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gittrackingstatus.yaml
       projectPath: Library\gfu\cache\gittrackingstatus.yaml
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\gfu\cache\gituser.yaml
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gituser.yaml
-      projectPath: Library\gfu\cache\gituser.yaml
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\gfu\cache\repoinfo.yaml
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\repoinfo.yaml
-      projectPath: Library\gfu\cache\repoinfo.yaml
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\InspectorExpandedItems.asset
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\InspectorExpandedItems.asset
-      projectPath: Library\InspectorExpandedItems.asset
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\BuiltinAssemblies.stamp
-      projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-      originalPath: 
-      status: 5
-      staged: 0
-    - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-      projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
-      projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-      projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
-      projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
       originalPath: 
       status: 3
       staged: 0
@@ -1828,33 +846,15 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    - path: Library\StateCache\Hierarchy\bc2425-mainStage.json
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\StateCache\Hierarchy\bc2425-mainStage.json
-      projectPath: Library\StateCache\Hierarchy\bc2425-mainStage.json
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\StateCache\SceneView\747686-mainStage.json
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\StateCache\SceneView\747686-mainStage.json
-      projectPath: Library\StateCache\SceneView\747686-mainStage.json
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: ProjectSettings\TagManager.asset
-      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\ProjectSettings\TagManager.asset
-      projectPath: ProjectSettings\TagManager.asset
-      originalPath: 
-      status: 3
-      staged: 0
-    changedFilesText: 32 changed files
+    changedFilesText: 4 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2019-04-16T15:35:25.394+02:00
+      updatedTimeString: 2019-04-16T16:31:07.134+02:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2019-04-16T16:12:27.526+02:00
+      updatedTimeString: 2019-04-16T16:46:32.306+02:00
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2019-04-16T16:45:55.936+02:00
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
@@ -1862,6 +862,228 @@ MonoBehaviour:
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: 3f8089865167aa48f5cbbd8590da036938dfbeaf
+        mergeA: 
+        mergeB: 
+        authorName: Piotr
+        authorEmail: zizi5673@gmail.com
+        commitEmail: zizi5673@gmail.com
+        commitName: Piotr
+        summary: Added score management.
+        description: Added score management.
+        timeString: 2019-04-16T16:16:31.000+02:00
+        commitTimeString: 2019-04-16T16:16:31.000+02:00
+        changes:
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Scripts\Puck.cs
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\Puck.cs
+          projectPath: Assets\Scripts\Puck.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Scripts\Puck.cs.meta
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\Puck.cs.meta
+          projectPath: Assets\Scripts\Puck.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Scripts\SceneManager.cs
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\SceneManager.cs
+          projectPath: Assets\Scripts\SceneManager.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Scripts\SceneManager.cs.meta
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\SceneManager.cs.meta
+          projectPath: Assets\Scripts\SceneManager.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Scripts\ScoreManager.cs
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\ScoreManager.cs
+          projectPath: Assets\Scripts\ScoreManager.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Scripts\ScoreManager.cs.meta
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\ScoreManager.cs.meta
+          projectPath: Assets\Scripts\ScoreManager.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\CurrentLayout.dwlt
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\InspectorExpandedItems.asset
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\InspectorExpandedItems.asset
+          projectPath: Library\InspectorExpandedItems.asset
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+          projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+          projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+          projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+          projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+          projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+          projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+          projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+          projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+          projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+          projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\StateCache\Hierarchy\bc2425-mainStage.json
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\StateCache\Hierarchy\bc2425-mainStage.json
+          projectPath: Library\StateCache\Hierarchy\bc2425-mainStage.json
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\StateCache\SceneView\747686-mainStage.json
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\StateCache\SceneView\747686-mainStage.json
+          projectPath: Library\StateCache\SceneView\747686-mainStage.json
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\assetDatabase3
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\assetDatabase3
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\expandedItems
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\expandedItems
+          projectPath: Library\expandedItems
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\gfu\cache\branches.yaml
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\branches.yaml
+          projectPath: Library\gfu\cache\branches.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\gfu\cache\gitlocks.yaml
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gitlocks.yaml
+          projectPath: Library\gfu\cache\gitlocks.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\gfu\cache\gitlog.yaml
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gitlog.yaml
+          projectPath: Library\gfu\cache\gitlog.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\gfu\cache\gitstatusentries.yaml
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gitstatusentries.yaml
+          projectPath: Library\gfu\cache\gitstatusentries.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\gfu\cache\gittrackingstatus.yaml
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gittrackingstatus.yaml
+          projectPath: Library\gfu\cache\gittrackingstatus.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\gfu\cache\gituser.yaml
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gituser.yaml
+          projectPath: Library\gfu\cache\gituser.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\gfu\cache\repoinfo.yaml
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\repoinfo.yaml
+          projectPath: Library\gfu\cache\repoinfo.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: ProjectSettings\TagManager.asset
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: ProjectSettings\UnityConnectSettings.asset
+          fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\ProjectSettings\UnityConnectSettings.asset
+          projectPath: ProjectSettings\UnityConnectSettings.asset
+          originalPath: 
+          status: 3
+          staged: 0
       - commitID: 8af952b31bc595bcea47aa72e80268ba872aed92
         mergeA: 
         mergeB: 
@@ -15150,8 +14372,8 @@ MonoBehaviour:
           originalPath: 
           status: 4
           staged: 0
-      statusAhead: 1
-      selectedIndex: 0
+      statusAhead: 0
+      selectedIndex: 1
     selectedEntry:
       commitID: 8af952b31bc595bcea47aa72e80268ba872aed92
       mergeA: 
@@ -15239,6 +14461,228 @@ MonoBehaviour:
         staged: 0
     detailsScroll: {x: 0, y: 0}
     logEntries:
+    - commitID: 3f8089865167aa48f5cbbd8590da036938dfbeaf
+      mergeA: 
+      mergeB: 
+      authorName: Piotr
+      authorEmail: zizi5673@gmail.com
+      commitEmail: zizi5673@gmail.com
+      commitName: Piotr
+      summary: Added score management.
+      description: Added score management.
+      timeString: 2019-04-16T16:16:31.000+02:00
+      commitTimeString: 2019-04-16T16:16:31.000+02:00
+      changes:
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Scripts\Puck.cs
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\Puck.cs
+        projectPath: Assets\Scripts\Puck.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scripts\Puck.cs.meta
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\Puck.cs.meta
+        projectPath: Assets\Scripts\Puck.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scripts\SceneManager.cs
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\SceneManager.cs
+        projectPath: Assets\Scripts\SceneManager.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scripts\SceneManager.cs.meta
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\SceneManager.cs.meta
+        projectPath: Assets\Scripts\SceneManager.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scripts\ScoreManager.cs
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\ScoreManager.cs
+        projectPath: Assets\Scripts\ScoreManager.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scripts\ScoreManager.cs.meta
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scripts\ScoreManager.cs.meta
+        projectPath: Assets\Scripts\ScoreManager.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\CurrentLayout.dwlt
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\CurrentLayout.dwlt
+        projectPath: Library\CurrentLayout.dwlt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\InspectorExpandedItems.asset
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\InspectorExpandedItems.asset
+        projectPath: Library\InspectorExpandedItems.asset
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+        projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+        projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+        projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+        projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+        projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+        projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+        projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+        projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+        projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+        projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\StateCache\Hierarchy\bc2425-mainStage.json
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\StateCache\Hierarchy\bc2425-mainStage.json
+        projectPath: Library\StateCache\Hierarchy\bc2425-mainStage.json
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\StateCache\SceneView\747686-mainStage.json
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\StateCache\SceneView\747686-mainStage.json
+        projectPath: Library\StateCache\SceneView\747686-mainStage.json
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\assetDatabase3
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\assetDatabase3
+        projectPath: Library\assetDatabase3
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\expandedItems
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\expandedItems
+        projectPath: Library\expandedItems
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\branches.yaml
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\branches.yaml
+        projectPath: Library\gfu\cache\branches.yaml
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\gitlocks.yaml
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gitlocks.yaml
+        projectPath: Library\gfu\cache\gitlocks.yaml
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\gitlog.yaml
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gitlog.yaml
+        projectPath: Library\gfu\cache\gitlog.yaml
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\gitstatusentries.yaml
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gitstatusentries.yaml
+        projectPath: Library\gfu\cache\gitstatusentries.yaml
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\gittrackingstatus.yaml
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gittrackingstatus.yaml
+        projectPath: Library\gfu\cache\gittrackingstatus.yaml
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\gituser.yaml
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gituser.yaml
+        projectPath: Library\gfu\cache\gituser.yaml
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\repoinfo.yaml
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\repoinfo.yaml
+        projectPath: Library\gfu\cache\repoinfo.yaml
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
+        projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: ProjectSettings\TagManager.asset
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\ProjectSettings\TagManager.asset
+        projectPath: ProjectSettings\TagManager.asset
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: ProjectSettings\UnityConnectSettings.asset
+        fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\ProjectSettings\UnityConnectSettings.asset
+        projectPath: ProjectSettings\UnityConnectSettings.asset
+        originalPath: 
+        status: 3
+        staged: 0
     - commitID: 8af952b31bc595bcea47aa72e80268ba872aed92
       mergeA: 
       mergeB: 
@@ -28527,7 +27971,7 @@ MonoBehaviour:
         originalPath: 
         status: 4
         staged: 0
-    statusAhead: 1
+    statusAhead: 0
     treeChanges:
       assets:
         keys: []
@@ -29095,10 +28539,10 @@ MonoBehaviour:
           status: 0
           staged: 0
     lastLogChangedEvent:
-      updatedTimeString: 2019-04-16T15:41:33.500+02:00
+      updatedTimeString: 2019-04-16T16:16:59.997+02:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2019-04-16T16:16:59.981+02:00
       cacheType: 4
   settingsView:
     gitPathView:
@@ -41920,7 +41364,7 @@ MonoBehaviour:
   currentRemoteName: origin
   currentBranch: master
   currentRemoteUrl: https://github.com/Zizajer/AirHockey.git
-  statusAhead: 1
+  statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
@@ -41933,13 +41377,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2019-04-16T15:35:25.394+02:00
+    updatedTimeString: 2019-04-16T16:16:58.514+02:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 0001-01-01T00:00:00.000+00:00
+    updatedTimeString: 2019-04-16T16:16:59.981+02:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2019-04-16T16:12:27.526+02:00
+    updatedTimeString: 2019-04-16T16:16:33.501+02:00
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
@@ -41985,9 +41429,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 595
+    y: 590
     width: 861
-    height: 405
+    height: 410
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -41999,10 +41443,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -109
-    m_HBaseRangeMax: 109
-    m_VBaseRangeMin: -194
-    m_VBaseRangeMax: 194
+    m_HBaseRangeMin: -110.5
+    m_HBaseRangeMax: 110.5
+    m_VBaseRangeMin: -196.5
+    m_VBaseRangeMax: 196.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -42021,9 +41465,9 @@ MonoBehaviour:
       x: 0
       y: 17
       width: 861
-      height: 388
+      height: 393
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 430.5, y: 194}
+    m_Translation: {x: 430.5, y: 196.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -42031,14 +41475,14 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -430.5
-      y: -194
+      y: -196.5
       width: 861
-      height: 388
+      height: 393
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 861, y: 405}
+  m_LastWindowPixelSize: {x: 861, y: 410}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 0
   m_LowResolutionForAspectRatios: 01000001000100000100
@@ -42067,7 +41511,7 @@ MonoBehaviour:
     x: 0
     y: 73
     width: 907
-    height: 502
+    height: 497
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: 747686de9ece2ef448d9e8281a0248a7
   m_SceneLighting: 1
@@ -42075,9 +41519,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.4639063, y: 1.6291807, z: 81.360664}
+    m_Target: {x: 1.1855325, y: -0.2774194, z: -9.880823}
     speed: 2
-    m_Value: {x: -1.4639063, y: 1.6291807, z: 81.360664}
+    m_Value: {x: 1.1855325, y: -0.2774194, z: -9.880823}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -42109,9 +41553,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 17.572329
+    m_Target: 22
     speed: 2
-    m_Value: 17.572329
+    m_Value: 22
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -42216,14 +41660,14 @@ MonoBehaviour:
     x: 909
     y: 73
     width: 286
-    height: 502
+    height: 497
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c0faffff96fbffff202b0000282b0000
+      m_ExpandedIDs: cef3ffffe4f3fffff8f3ffff60f6ffffb2fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -42269,9 +41713,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 863
-    y: 595
+    y: 590
     width: 332
-    height: 405
+    height: 410
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -42297,7 +41741,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b6280000
     m_LastClickedID: 10422
-    m_ExpandedIDs: 000000006e280000
+    m_ExpandedIDs: 000000006a28000028290000522a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -42325,7 +41769,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000006e2800002c290000562a0000
+    m_ExpandedIDs: ffffffff000000006a28000028290000522a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -42341,7 +41785,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 14}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}

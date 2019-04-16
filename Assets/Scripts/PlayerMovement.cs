@@ -14,6 +14,12 @@ public class PlayerMovement : MonoBehaviour
     public Transform BoundaryPointLeft;
     public Transform BoundaryPointRight;
 
+    public Collider2D PlayerCollider { get; private set; }
+
+    public PlayerController Controller;
+
+    public int? LockedFingerID { get; set; }
+
     Rigidbody2D rb;
 
     // Use this for initialization
@@ -21,45 +27,26 @@ public class PlayerMovement : MonoBehaviour
     {
         playerSize = gameObject.GetComponent<SpriteRenderer>().bounds.extents;
         rb = gameObject.GetComponent<Rigidbody2D>();
+        PlayerCollider = GetComponent<Collider2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnEnable()
     {
-        if (Input.GetMouseButton(0))
-        {
-            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Controller.Players.Add(this);
+    }
 
-            if (wasJustClicked)
-            {
-                wasJustClicked = false;
+    private void OnDisable()
+    {
+        Controller.Players.Remove(this);
+    }
 
-                if ((mousePos.x >= transform.position.x && mousePos.x < transform.position.x + playerSize.x ||
-                mousePos.x <= transform.position.x && mousePos.x > transform.position.x - playerSize.x) &&
-                (mousePos.y >= transform.position.y && mousePos.y < transform.position.y + playerSize.y ||
-                mousePos.y <= transform.position.y && mousePos.y > transform.position.y - playerSize.y))
-                {
-                    canMove = true;
-                }
-                else
-                {
-                    canMove = false;
-                }
-            }
-
-            if (canMove)
-            {
-                Vector2 clampedMousePos = new Vector2(Mathf.Clamp(mousePos.x, BoundaryPointLeft.position.x,
+    public void MoveToPosition(Vector2 position)
+    {
+        Vector2 clampedMousePos = new Vector2(Mathf.Clamp(position.x, BoundaryPointLeft.position.x,
                                                                   BoundaryPointRight.position.x),
-                                                      Mathf.Clamp(mousePos.y, BoundaryPointDown.position.y,
+                                                      Mathf.Clamp(position.y, BoundaryPointDown.position.y,
                                                                   BoundaryPointUp.position.y));
 
-                rb.MovePosition(clampedMousePos);
-            }
-        }
-        else
-        {
-            wasJustClicked = true;
-        }
+        rb.MovePosition(clampedMousePos);
     }
 }

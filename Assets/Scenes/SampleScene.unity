@@ -606,6 +606,7 @@ GameObject:
   m_Component:
   - component: {fileID: 909608234}
   - component: {fileID: 909608233}
+  - component: {fileID: 909608235}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -642,6 +643,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &909608235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909608232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efc0fe8d0965f9c48a0324d69099105a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Players: []
 --- !u!1 &918637873
 GameObject:
   m_ObjectHideFlags: 0
@@ -915,6 +929,7 @@ MonoBehaviour:
   BoundaryPointDown: {fileID: 508022375}
   BoundaryPointLeft: {fileID: 1019486488}
   BoundaryPointRight: {fileID: 1332288685}
+  Controller: {fileID: 909608235}
 --- !u!212 &1202146272
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1445,6 +1460,7 @@ MonoBehaviour:
   BoundaryPointDown: {fileID: 1994309340}
   BoundaryPointLeft: {fileID: 1477807912}
   BoundaryPointRight: {fileID: 656286969}
+  Controller: {fileID: 909608235}
 --- !u!212 &1914607633
 SpriteRenderer:
   m_ObjectHideFlags: 0
