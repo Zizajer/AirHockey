@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-04-16T13:50:44.827+02:00
-  initializedAtString: 2019-04-16T11:45:20.633+02:00
+  lastUpdatedAtString: 2019-04-16T16:13:42.572+02:00
+  initializedAtString: 2019-04-16T16:13:42.572+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/Zizajer/AirHockey.git
@@ -25,13 +25,13 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: master
-    tracking: 
+    tracking: origin/master
   currentConfigBranch:
     name: master
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/Zizajer/AirHockey.git
+    trackingBranch: master
   currentConfigRemote:
     name: origin
     url: https://github.com/Zizajer/AirHockey.git

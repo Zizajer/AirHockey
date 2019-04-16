@@ -13,9 +13,93 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-04-16T14:35:43.183+02:00
-  initializedAtString: 2019-04-16T11:45:25.924+02:00
+  lastUpdatedAtString: 2019-04-16T16:14:18.401+02:00
+  initializedAtString: 2019-04-16T16:14:18.401+02:00
   log:
+  - commitID: 8af952b31bc595bcea47aa72e80268ba872aed92
+    mergeA: 
+    mergeB: 
+    authorName: Piotr
+    authorEmail: zizi5673@gmail.com
+    commitEmail: zizi5673@gmail.com
+    commitName: Piotr
+    summary: Added second player for local player posibility.
+    description: Added second player for local player posibility.
+    timeString: 2019-04-16T14:36:54.000+02:00
+    commitTimeString: 2019-04-16T14:36:54.000+02:00
+    changes:
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\Hierarchy\bc2425-mainStage.json
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\StateCache\Hierarchy\bc2425-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\bc2425-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\SceneView\747686-mainStage.json
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\StateCache\SceneView\747686-mainStage.json
+      projectPath: Library\StateCache\SceneView\747686-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\zizi5\Documents\Projekty Unity\Tutoriale\AirHockeyGame\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 1649ebd67be445f58672cdce5dded3b834fb55af
     mergeA: 
     mergeB: 
